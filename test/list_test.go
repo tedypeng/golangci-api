@@ -1,7 +1,7 @@
 package test
 
 import (
-	"testing1"
+	"testing"
 	
 
 	"github.com/golangci/golangci-api/test/sharedtest"
@@ -9,6 +9,7 @@ import (
 
 func TestListRepos(t *testing.T) {
 	u := sharedtest.Login(t)
+	
 	u.Repos()
 }
 
