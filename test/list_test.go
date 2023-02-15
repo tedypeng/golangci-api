@@ -1,7 +1,8 @@
 package test
 
 import (
-	"testing"
+	"testing1"
+	
 
 	"github.com/golangci/golangci-api/test/sharedtest"
 )
